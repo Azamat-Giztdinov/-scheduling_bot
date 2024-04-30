@@ -1,0 +1,7 @@
+version: '3'
+services:
+  dockerbot:
+    build: .
+    volumes:
+      - ./:/app/tgbot
+    restart: always
